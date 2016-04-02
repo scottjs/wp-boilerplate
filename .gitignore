@@ -8,6 +8,7 @@ Thumbs.db
 
 # wordpress specific
 public/wp
+public/wp-config.php
 public/wp-config-custom.php
 public/wp-content/uploads/*
 public/wp-content/blogs.dir/
@@ -23,5 +24,11 @@ public/wp-content/cache/supercache/*
 *.map
 .env
 .idea
+.bundle
 sitemap.*
 /vendor/
+/dumps
+
+#puphpet
+puphpet/config.yaml
+puphpet/files/dot/ssh/*
