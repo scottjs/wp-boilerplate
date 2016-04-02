@@ -8,6 +8,7 @@ Thumbs.db
 
 # wordpress specific
 public/wp
+public/wp-config.php
 public/wp-config-custom.php
 public/wp-content/uploads/*
 public/wp-content/blogs.dir/
