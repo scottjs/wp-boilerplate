@@ -10,7 +10,7 @@
 		"generate-config" : [
 			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh"
 		],
-		"generate-config-salts" : [
+		"generate-config-with-salts" : [
 			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh salts"
 		]
 	}
