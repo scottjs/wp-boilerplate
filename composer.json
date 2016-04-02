@@ -16,10 +16,10 @@
 		"generate-config-with-salts" : [
 			"vendor/scottjs/wp-dotenv/generate-config.sh salts"
 		],
-		"update-database" : [
+		"database-update" : [
 			"vendor/scottjs/db-sync/update-database.sh"
 		],
-		"prepare-database" : [
+		"database-prepare" : [
 			"vendor/scottjs/db-sync/prepare-database.sh"
 		]
 	}
