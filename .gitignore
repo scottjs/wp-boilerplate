@@ -24,5 +24,11 @@ public/wp-content/cache/supercache/*
 *.map
 .env
 .idea
+.bundle
 sitemap.*
 /vendor/
+/dumps
+
+#puphpet
+puphpet/config.yaml
+puphpet/files/dot/ssh/*

@@ -3,15 +3,24 @@
 		"johnpbloch/wordpress": "4.4.*",
 		"scottjs/wp-dotenv": "0.*"
 	},
+	"require-dev": {
+		"scottjs/db-sync": "0.*"
+	},
 	"extra": {
 		"wordpress-install-dir": "public/wp"
 	},
 	"scripts": {
 		"generate-config" : [
-			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh"
+			"vendor/scottjs/wp-dotenv/generate-config.sh"
 		],
 		"generate-config-with-salts" : [
-			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh salts"
+			"vendor/scottjs/wp-dotenv/generate-config.sh salts"
+		],
+		"update-database" : [
+			"vendor/scottjs/db-sync/update-database.sh"
+		],
+		"prepare-database" : [
+			"vendor/scottjs/db-sync/prepare-database.sh"
 		]
 	}
 }
