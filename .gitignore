@@ -1,0 +1,26 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# wordpress specific
+public/wp
+public/wp-config-custom.php
+public/wp-content/uploads/*
+public/wp-content/blogs.dir/
+public/wp-content/upgrade/*
+public/wp-content/backup/*
+public/wp-content/backup-db/*
+public/wp-content/advanced-cache.php
+public/wp-content/wp-cache-config.php
+public/wp-content/cache/*
+public/wp-content/cache/supercache/*
+
+# custom
+*.map
+.idea
+sitemap.*
+/vendor/

@@ -1,0 +1,17 @@
+{
+	"require": {
+		"johnpbloch/wordpress": "4.4.*",
+		"scottjs/wp-dotenv": "0.*"
+	},
+	"extra": {
+		"wordpress-install-dir": "public/wp"
+	},
+	"scripts": {
+		"generate-config" : [
+			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh"
+		],
+		"generate-config-salts" : [
+			"vendor/scottjs/wp-dotenv/wp-dotenv-config.sh salts"
+		]
+	}
+}
