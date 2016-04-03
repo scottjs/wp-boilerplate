@@ -13,7 +13,8 @@
 		"scottjs/wp-dotenv": "0.*"
 	},
 	"require-dev": {
-		"scottjs/db-sync": "0.*"
+		"scottjs/db-sync": "0.*",
+		"scottjs/helper-scripts": "0.*"
 	},
 	"extra": {
 		"wordpress-install-dir": "public/wp"
