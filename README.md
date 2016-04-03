@@ -48,13 +48,13 @@ To use the features of the companion packages mentioned above, the following com
 
 * ***composer remote-uploads-enable*** - When developing locally on an active project, it's likely that the main uploads folder is not bundled within your repository, causing CMS uploaded images not to load. This command will install a local .htaccess file in your configured uploads directory and will redirect all requests to the remote server instead. This requires `DOMAIN_REMOTE`, `APP_DOCROOT` and `APP_UPLOADS` to be set in the .env file. It's recommended to ignore this .htaccess file from your project repository.
 
-* ***composer remote-uploads-disable*** - A convienient helper command to remove the .htaccess file created by the command above just in case you find it causes issues. This assumes that the .env configuration hasn't changed since it was added.
+* ***composer remote-uploads-disable*** - A convenient helper command to remove the .htaccess file created by the command above just in case you find it causes issues. This assumes that the .env configuration hasn't changed since it was added.
 
 ## Configuration Options
 
 See below for an explanation of each configuration option used within the .env file.
 
-* ***DOMAIN_REMOTE*** - Required by ***composer database-prepare*** and ***composer remote-uploads-enable***, it should point to your remote or production environment (if available) and not include http:// or trailing slashses. Example: `www.example.com` or `subdomain.example.com`.
+* ***DOMAIN_REMOTE*** - Required by ***composer database-prepare*** and ***composer remote-uploads-enable***, it should point to your remote or production environment (if available) and not include http:// or trailing slashes. Example: `www.example.com` or `subdomain.example.com`.
 
 * ***DOMAIN_LOCAL*** - Required by ***composer database-prepare***, it should not include http:// or trailing slashses. Example: `www.example.local` or `subdomain.example.local`.
 
