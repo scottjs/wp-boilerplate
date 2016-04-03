@@ -1,4 +1,13 @@
 {
+	"name": "scottjs/wp-dotenv",
+	"description": "An empty WordPress boilerplate folder structure with initial composer packages.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Scott Salisbury",
+			"email": "scottsalisbury@gmail.com"
+		}
+	],
 	"require": {
 		"johnpbloch/wordpress": "4.4.*",
 		"scottjs/wp-dotenv": "0.*"
