@@ -1,5 +1,5 @@
 {
-	"name": "scottjs/wp-dotenv",
+	"name": "scottjs/wp-boilerplate",
 	"description": "An empty WordPress boilerplate folder structure with initial composer packages.",
 	"license": "MIT",
 	"authors": [
