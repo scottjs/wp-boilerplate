@@ -15,7 +15,7 @@ WP Boilerplate was originally created for use internally within our development 
 
 ## Installation
 
-1. Download/extract a copy of this repository to a location accessable by your local environment. Ensure that the `public` directory is set to the document root and you have a host entry configured for the project. 
+1. Download/extract a copy of this repository to a location accessible by your local environment. Ensure that the `public` directory is set to the document root and you have a host entry configured for the project. 
 2. Copy, paste and rename `.env-sample` to `.env`.
 3. Update the `.env` configuration options as necessary. 
 4. Run `composer install` to download the companion packages and install WP core.
