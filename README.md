@@ -15,6 +15,14 @@ WP Boilerplate was originally created for use internally within our development 
 * Similar to Laravel and other frameworks, the WordPress files are stored in the `public` directory and this directory should be set as the document root for your project. 
 * Ensure you have a host entry configured for the project. 
 
+## Companion Packages
+
+This repository comes with the following composer packages preloaded to provide additional features for this boilerplate:
+
+* [scottjs/wp-dotenv](https://github.com/scottjs/wp-dotenv) - Enables WordPress to use dotenv config files. 
+* [scottjs/db-sync](https://github.com/scottjs/db-sync) - Scripts to quickly sync a remote database to a local database, as well as safe search/replace.
+* [scottjs/helper-scripts](https://github.com/scottjs/helper-scripts) - Other scripts to assist with common tasks, such as allowing remote uploads to load locally. 
+
 ## Installation
 
 1. Download/extract a copy of this repository to a location accessible by your local environment.
@@ -26,15 +34,7 @@ WP Boilerplate was originally created for use internally within our development 
 7. Visit the project in your browser and continue to set up the local database as normal. 
 8. Install or build your theme and begin development.
 
-## Companion Packages
-
-This repository comes with the following composer packages preloaded to provide additional features for this boilerplate:
-
-* [scottjs/wp-dotenv](https://github.com/scottjs/wp-dotenv) - Enables WordPress to use dotenv config files. 
-* [scottjs/db-sync](https://github.com/scottjs/db-sync) - Scripts to quickly sync a remote database to a local database, as well as safe search/replace.
-* [scottjs/helper-scripts](https://github.com/scottjs/helper-scripts) - Other scripts to assist with common tasks, such as allowing remote uploads to load locally. 
-
-## Composer Commands
+## Usage
 
 To use the features of the companion packages mentioned above, the following composer commands have been added to the composer.json file:
 
