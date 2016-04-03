@@ -21,6 +21,12 @@
 		],
 		"database-prepare" : [
 			"vendor/scottjs/db-sync/database-prepare.sh"
+		],
+		"remote-uploads-enable" : [
+			"vendor/scottjs/helper-scripts/remote-uploads.sh enable"
+		],
+		"remote-uploads-disable" : [
+			"vendor/scottjs/helper-scripts/remote-uploads.sh disable"
 		]
 	}
 }
