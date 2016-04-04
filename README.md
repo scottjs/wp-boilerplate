@@ -29,8 +29,8 @@ This repository comes with the following composer packages preloaded to provide 
 
 1. Download/extract a copy of this repository to a location accessible by your local environment.
 2. Copy, paste and rename `.env-sample` to `.env`.
-3. Update the `.env` configuration options as necessary. 
-4. Within your environment terminal, browse to the project root folder, e.g. `cd /var/www/<project-name>`
+3. Update the `.env` configuration options as necessary.
+4. Within your environment terminal, browse to the project root, e.g. `cd /var/www/<project-name>`
 5. Run `composer install` to download the companion packages and install WP core.
 6. Run `composer generate-config` or `composer generate-config-with-salts` to create a modified WordPress config that uses the .env config file. 
 7. Visit the project in your browser and continue to set up the local database as normal. 
