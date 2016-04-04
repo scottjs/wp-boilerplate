@@ -52,7 +52,7 @@ To use the features of the companion packages mentioned above, the following com
 
 * ***composer remote-uploads-disable*** - A convenient helper command to remove the .htaccess file created by the command above just in case you find it causes issues. This assumes that the .env configuration hasn't changed since it was added.
 
-## Configuration Options
+## Config
 
 See below for an explanation of each configuration option used within the .env file.
 
