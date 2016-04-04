@@ -12,7 +12,7 @@ WP Boilerplate is a modified WordPress config and folder structure that we commo
 
 ## Notes
 
-* The configuration for this boilerplate is inspired by Laravel 5's dotenv mechanism using  `.env` files.
+* The configuration for this boilerplate is inspired by Laravel 5's dotenv mechanism using .env files.
 * This setup has been designed to work within a Vagrant environment, it may work in other flavours as long as the project has its own host entry/vhost and isn't set up as a subdomain install.
 * Similar to Laravel and other frameworks, the WordPress files are stored in the `public` directory and this directory should be set as the document root for your project. 
 * Ensure you have a host entry configured for the project. 
