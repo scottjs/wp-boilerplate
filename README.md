@@ -1,6 +1,6 @@
 # WP Boilerplate
 
-WP Boilerplate is a modified WordPress folder structure that we commonly use in our development environment. It is bundled with a collection of composer packages that provide scripts to quickly sync databases, run safe find/replace and allow unversioned uploads to load remotely. 
+WP Boilerplate is a modified WordPress config and folder structure that we commonly use in our development environment to maintain project consistency. It is bundled with a collection of composer packages that provide scripts to quickly sync databases, run safe find/replace and allow unversioned uploads to load from a production server. 
 
 *Disclaimer: This boilerplate was originally created for use internally within our development team to speed up common repetitive tasks. However, they may be of some use to others. Feel free to use in your own projects, your mileage may vary.*
 
@@ -12,7 +12,7 @@ WP Boilerplate is a modified WordPress folder structure that we commonly use in 
 
 ## Notes
 
-* The configuration for this boilerplate is inspired by Laravel 5's dotenv mechanism using  .env files.
+* The configuration for this boilerplate is inspired by Laravel 5's dotenv mechanism using  `.env` files.
 * This setup has been designed to work within a Vagrant environment, it may work in other flavours as long as the project has its own host entry/vhost and isn't set up as a subdomain install.
 * Similar to Laravel and other frameworks, the WordPress files are stored in the `public` directory and this directory should be set as the document root for your project. 
 * Ensure you have a host entry configured for the project. 
@@ -38,7 +38,7 @@ This repository comes with the following composer packages preloaded to provide 
 
 ## Usage
 
-To use the features of the companion packages mentioned above, the following composer commands have been added to the composer.json file:
+To use the features of the companion packages mentioned above, the following composer commands have been added to the `composer.json` file:
 
 * ***composer generate-config*** - All of the companion packages rely on the .env file to get their configuration. This command will generate a modified wp-config.php file to allow WordPress to also use the .env file and avoids having to maintain two config files. This requires `APP_DOCROOT` to be set in the .env file.
 
