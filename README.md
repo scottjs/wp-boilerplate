@@ -48,6 +48,10 @@ To use the features of the companion packages mentioned above, the following com
 
 * ***composer database-prepare*** - When developing locally, links to images and assets created within a CMS might be referencing your local development web address and won't work in staging or production. This command will run a safe search/replace script on your locally configured database, replacing all instances of `DOMAIN_LOCAL` with `DOMAIN_REMOTE` configured in the .env file. The database will then be exported to `dumps/prepared-database-YYYY.MM.DD-HH.MM.SS.sql` ready for deployment.
 
+* ***composer database-import*** - If the file `setup/database.sql` exists in the project root, this command will import the file into your local database configured in the .env file. This is useful if you're working on a project and want another member of the team to get quickly set up with working copy of the database.
+
+* ***composer database-export*** - This command will export a copy of your local database configured in the .env file and save it to `setup/database.sql`. If this file exists it will be overwritten. This is useful to quickly take a snapshot of your current development database to be shared with others.
+
 * ***composer remote-uploads-enable*** - When developing locally on an active project, it's likely that the main uploads folder is not bundled within your repository, causing CMS uploaded images not to load. This command will install a local .htaccess file in your configured uploads directory and will redirect all requests to the remote server instead. This requires `DOMAIN_REMOTE`, `APP_DOCROOT` and `APP_UPLOADS` to be set in the .env file. It's recommended to ignore this .htaccess file from your project repository.
 
 * ***composer remote-uploads-disable*** - A convenient helper command to remove the .htaccess file created by the command above just in case you find it causes issues. This assumes that the .env configuration hasn't changed since it was added.
@@ -58,7 +62,7 @@ See below for an explanation of each configuration option used within the .env f
 
 * ***DOMAIN_REMOTE*** - Required by ***composer database-prepare*** and ***composer remote-uploads-enable***, it should point to your remote or production environment (if available) and not include http:// or trailing slashes. Example: `www.example.com` or `subdomain.example.com`.
 
-* ***DOMAIN_LOCAL*** - Required by ***composer database-prepare***, it should not include http:// or trailing slashses. Example: `www.example.local` or `subdomain.example.local`.
+* ***DOMAIN_LOCAL*** - Required by ***composer database-prepare***, it should not include http:// or trailing slashes. Example: `www.example.local` or `subdomain.example.local`.
 
 * ***APP_DOCROOT*** - Required by ***composer generate-config*** and ***composer remote-uploads-enable***, it should be relative to your project root folder and point to where the document root is configured. It should start with a slash and not include a trailing slash. Leave blank if not applicable. Example: `/public`.
 
