@@ -13,7 +13,7 @@
 		"scottjs/wp-dotenv": "0.*"
 	},
 	"require-dev": {
-		"scottjs/db-sync": "0.*",
+		"scottjs/db-sync": "1.*",
 		"scottjs/helper-scripts": "0.*"
 	},
 	"extra": {
@@ -31,6 +31,12 @@
 		],
 		"database-prepare" : [
 			"vendor/scottjs/db-sync/database-prepare.sh"
+		],
+		"database-import" : [
+			"vendor/scottjs/db-sync/database-import.sh"
+		],
+		"database-export" : [
+			"vendor/scottjs/db-sync/database-export.sh"
 		],
 		"remote-uploads-enable" : [
 			"vendor/scottjs/helper-scripts/remote-uploads.sh enable"
