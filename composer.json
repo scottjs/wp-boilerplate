@@ -10,11 +10,11 @@
 	],
 	"require": {
 		"johnpbloch/wordpress": "4.4.*",
-		"scottjs/wp-dotenv": "0.*"
+		"scottjs/wp-dotenv": "1.*"
 	},
 	"require-dev": {
 		"scottjs/db-sync": "1.*",
-		"scottjs/helper-scripts": "0.*"
+		"scottjs/helper-scripts": "1.*"
 	},
 	"extra": {
 		"wordpress-install-dir": "public/wp"
