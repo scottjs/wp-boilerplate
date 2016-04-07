@@ -1,6 +1,6 @@
 # WP Boilerplate
 
-WP Boilerplate is a modified WordPress config and folder structure that we commonly use in our development environment to maintain project consistency. It is bundled with a collection of composer packages that provide scripts to quickly sync databases, run safe find/replace and allow unversioned uploads to load from a production server. 
+WP Boilerplate is an empty, themeless WordPress folder structure that we commonly use in our development environment to maintain project consistency. It is bundled with a collection of composer packages that provide scripts to quickly sync databases, run safe find/replace and allow unversioned uploads to load from a production server. 
 
 *Disclaimer: This boilerplate was originally created for use internally within our development team to speed up common, repetitive tasks. However, they may be of some use to others. Feel free to use in your own projects, your mileage may vary.*
 
