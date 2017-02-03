@@ -9,7 +9,7 @@
 		}
 	],
 	"require": {
-		"johnpbloch/wordpress": "4.4.*",
+		"johnpbloch/wordpress": "4.7.*",
 		"scottjs/wp-dotenv": "1.*"
 	},
 	"require-dev": {
